@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/constants/interfaces.ts","./src/controllers/student.controller.ts","./src/database/db.ts","./src/middlewares/authmiddleware.ts","./src/models/student.schema.ts","./src/routes/student.routes.ts","./src/utils/generatetoken.ts"],"version":"5.8.2"}
