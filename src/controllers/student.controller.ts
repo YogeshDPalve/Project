@@ -4,7 +4,7 @@ import bcrypt from "bcryptjs";
 import generateToken from "../utils/generateToken";
 import { AuthRequest } from "../constants/interfaces";
 
-const regiterStudent = async (req: Request, res: Response): Promise<any> => {
+const registerStudent = async (req: Request, res: Response): Promise<any> => {
   try {
     const { firstName, lastName, email, password } = req.body;
 
@@ -94,4 +94,4 @@ const getUser = async (req: AuthRequest, res: Response): Promise<any> => {
     student,
   });
 };
-export { regiterStudent, studentLogin, getUser };
+export { registerStudent, studentLogin, getUser };
